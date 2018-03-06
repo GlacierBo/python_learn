@@ -46,7 +46,7 @@ def searchQuestion(id):
         count = answer.voteup_count
         print("已经循环到第"+str(index)+"条")
         # 过滤小于1000赞的内容
-        if count < 1000 :
+        if count < 3000 :
             continue
         index = index + 1
         print("正在保存第"+str(index)+"个回答"+"，点赞数量："+ str(count))
@@ -95,7 +95,7 @@ def searchQuestion(id):
 
 if __name__ == '__main__':
 
-    id = 60347845
+    id = 62920125
     searchQuestion(id)
 
 
