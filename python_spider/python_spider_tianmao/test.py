@@ -3,7 +3,7 @@
 # @Time    : 2018/1/5 10:06
 # @Author  : glacier
 # @Site    : 爬取淘宝商品
-# @File    : test.py
+# @File    : yiliao.py
 # @Software: PyCharm Edu
 
 import requests,re,time
