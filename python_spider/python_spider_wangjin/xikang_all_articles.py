@@ -80,7 +80,9 @@ def getArticleList(url):
         pass
 
     pass
-def detailArticle():
+def detailArticle(soup):
+    uls_lib = soup.find('ul',{'class':'news_list'})
+    uls_lib.findAll('li').find('')
     pass
 
 def getArticles(url):

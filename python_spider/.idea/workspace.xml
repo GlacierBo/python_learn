@@ -33,15 +33,15 @@
       <file leaf-file-name="xikang_all_articles.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_spider_wangjin/xikang_all_articles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+            <state relative-caret-position="250">
+              <caret line="92" column="27" lean-forward="true" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
               <folding>
                 <element signature="e#163#178#0" expanded="true" />
                 <element signature="e#663#866#0" expanded="false" />
                 <element signature="e#889#1139#0" expanded="false" />
                 <element signature="e#1171#1507#0" expanded="false" />
                 <element signature="e#1550#1676#0" expanded="false" />
-                <element signature="e#2400#2785#0" expanded="false" />
+                <element signature="e#2491#2876#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -499,7 +499,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="575" y="93" width="1165" height="880" extended-state="1" />
+    <frame x="575" y="93" width="1165" height="880" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24543081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -926,15 +926,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_spider_wangjin/xikang_all_articles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        <state relative-caret-position="250">
+          <caret line="92" column="27" lean-forward="true" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
           <folding>
             <element signature="e#163#178#0" expanded="true" />
             <element signature="e#663#866#0" expanded="false" />
             <element signature="e#889#1139#0" expanded="false" />
             <element signature="e#1171#1507#0" expanded="false" />
             <element signature="e#1550#1676#0" expanded="false" />
-            <element signature="e#2400#2785#0" expanded="false" />
+            <element signature="e#2491#2876#0" expanded="false" />
           </folding>
         </state>
       </provider>
