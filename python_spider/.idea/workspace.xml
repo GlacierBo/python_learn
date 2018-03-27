@@ -12,7 +12,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python_spider$yiliao_vedio_flash.coverage" NAME="yiliao_vedio_flash Coverage Results" MODIFIED="1522131025049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_spider_wangjin" />
+    <SUITE FILE_PATH="coverage/python_spider$download_img.coverage" NAME="download_img Coverage Results" MODIFIED="1522138841397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_spider_wangjin" />
+    <SUITE FILE_PATH="coverage/python_spider$yiliao_vedio_flash.coverage" NAME="yiliao_vedio_flash Coverage Results" MODIFIED="1522133208249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_spider_wangjin" />
+    <SUITE FILE_PATH="coverage/python_spider$xikang_all_articles.coverage" NAME="xikang_all_articles Coverage Results" MODIFIED="1522141943236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_spider_wangjin" />
     <SUITE FILE_PATH="coverage/python_spider$Proxy_hot.coverage" NAME="Proxy-hot Coverage Results" MODIFIED="1522054068789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_spider_hot_article" />
     <SUITE FILE_PATH="coverage/python_spider$test_down.coverage" NAME="test_down Coverage Results" MODIFIED="1522130901726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_spider_wangjin" />
     <SUITE FILE_PATH="coverage/python_spider$test.coverage" NAME="test Coverage Results" MODIFIED="1522043127837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_spider_wangjin" />
@@ -28,41 +30,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="yiliao_vedio_flash.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_spider_wangjin/yiliao_vedio_flash.py">
+      <file leaf-file-name="xikang_all_articles.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_spider_wangjin/xikang_all_articles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
               <folding>
-                <element signature="e#162#180#0" expanded="true" />
-                <element signature="e#295#648#0" expanded="false" />
-                <element signature="e#676#882#0" expanded="false" />
-                <element signature="e#2196#2386#0" expanded="false" />
-                <element signature="e#2417#2602#0" expanded="false" />
-                <element signature="e#2627#2772#0" expanded="false" />
-                <element signature="e#2800#3209#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_down.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_spider_wangjin/test_down.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="download_media.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_spider_wangjin/download_media.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="e#158#167#0" expanded="true" />
+                <element signature="e#163#178#0" expanded="true" />
+                <element signature="e#663#866#0" expanded="false" />
+                <element signature="e#889#1139#0" expanded="false" />
+                <element signature="e#1171#1507#0" expanded="false" />
+                <element signature="e#1550#1676#0" expanded="false" />
+                <element signature="e#2400#2785#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -80,6 +59,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getHTMLInfo</find>
+      <find>page</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -100,8 +80,11 @@
         <option value="$PROJECT_DIR$/python_spider_hot_article/Proxy-hot.py" />
         <option value="$PROJECT_DIR$/python_spider_wangjin/yiliao.py" />
         <option value="$PROJECT_DIR$/python_spider_wangjin/download_media.py" />
-        <option value="$PROJECT_DIR$/python_spider_wangjin/yiliao_vedio_flash.py" />
         <option value="$PROJECT_DIR$/python_spider_wangjin/test_down.py" />
+        <option value="$PROJECT_DIR$/python_spider_wangjin/yiliao_vedio_flash.py" />
+        <option value="$PROJECT_DIR$/python_spider_wangjin/downVedio.txt" />
+        <option value="$PROJECT_DIR$/python_spider_wangjin/download_img.py" />
+        <option value="$PROJECT_DIR$/python_spider_wangjin/xikang_all_articles.py" />
       </list>
     </option>
   </component>
@@ -112,10 +95,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="770" />
-    <option name="y" value="87" />
+    <option name="x" value="575" />
+    <option name="y" value="93" />
     <option name="width" value="1165" />
-    <option name="height" value="825" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -132,8 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,6 +143,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,43 +160,7 @@
       <recent name="D:\Work\Git\python_learn\python_spider\python_spider_anju" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.yiliao_vedio_flash">
-    <configuration default="false" name="Proxy-hot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_spider_hot_article" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_spider" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_spider_hot_article/Proxy-hot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="yiliao" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_spider_wangjin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_spider" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_spider_wangjin/yiliao.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.xikang_all_articles">
     <configuration default="false" name="yiliao_vedio_flash" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,6 +211,42 @@
       <module name="python_spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_spider_wangjin/test_down.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="download_img" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_spider_wangjin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_spider_wangjin/download_img.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="xikang_all_articles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_spider_wangjin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_spider_wangjin/xikang_all_articles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -483,19 +466,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Proxy-hot" />
-      <item index="1" class="java.lang.String" itemvalue="Python.yiliao" />
-      <item index="2" class="java.lang.String" itemvalue="Python.yiliao_vedio_flash" />
-      <item index="3" class="java.lang.String" itemvalue="Python.download_media" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_down" />
+      <item index="0" class="java.lang.String" itemvalue="Python.yiliao_vedio_flash" />
+      <item index="1" class="java.lang.String" itemvalue="Python.download_media" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_down" />
+      <item index="3" class="java.lang.String" itemvalue="Python.download_img" />
+      <item index="4" class="java.lang.String" itemvalue="Python.xikang_all_articles" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.yiliao_vedio_flash" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_down" />
-        <item index="2" class="java.lang.String" itemvalue="Python.download_media" />
-        <item index="3" class="java.lang.String" itemvalue="Python.yiliao" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Proxy-hot" />
+        <item index="0" class="java.lang.String" itemvalue="Python.xikang_all_articles" />
+        <item index="1" class="java.lang.String" itemvalue="Python.download_img" />
+        <item index="2" class="java.lang.String" itemvalue="Python.yiliao_vedio_flash" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_down" />
+        <item index="4" class="java.lang.String" itemvalue="Python.download_media" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +499,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="770" y="87" width="1165" height="825" extended-state="0" />
+    <frame x="575" y="93" width="1165" height="880" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24543081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -525,7 +508,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3659218" sideWeight="0.49695387" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40985733" sideWeight="0.49695387" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -578,6 +561,29 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/yiliao_vedio_flash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="53" column="52" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+          <folding>
+            <element signature="e#162#180#0" expanded="true" />
+            <element signature="e#295#648#0" expanded="false" />
+            <element signature="e#676#882#0" expanded="false" />
+            <element signature="e#2402#2592#0" expanded="false" />
+            <element signature="e#2833#2978#0" expanded="false" />
+            <element signature="e#3006#3415#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/test_down.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_spider_hot_article/Proxy-hot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -809,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_spider_tieba/baidu_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_spider_tianmao/tianmao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -858,10 +857,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/yiliao.py">
+    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/downVedio.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_spider_tieba/baidu_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/test_down.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="43" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/download_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <folding>
+            <element signature="e#156#170#0" expanded="true" />
+            <marker date="1522138917343" expanded="true" signature="1281:1288" ph="SELECT vedio... vedio_info" />
+            <marker date="1522138917343" expanded="true" signature="1281:1325" ph="SELECT img_u... xikangwang" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/yiliao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding>
             <element signature="e#150#159#0" expanded="true" />
             <marker date="1522113078635" expanded="true" signature="1996:2088" ph="insert into anju_suzhou... " />
@@ -869,36 +903,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/download_media.py">
+    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/yiliao_vedio_flash.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="76">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="38" selection-end-column="33" />
           <folding>
-            <element signature="e#158#167#0" expanded="true" />
+            <element signature="e#162#180#0" expanded="true" />
+            <element signature="e#2402#2592#0" expanded="false" />
+            <element signature="e#2833#2978#0" expanded="false" />
+            <element signature="e#3006#3415#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/test_down.py">
+    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/download_media.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="122">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/yiliao_vedio_flash.py">
+    <entry file="file://$PROJECT_DIR$/python_spider_wangjin/xikang_all_articles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
           <folding>
-            <element signature="e#162#180#0" expanded="true" />
-            <element signature="e#295#648#0" expanded="false" />
-            <element signature="e#676#882#0" expanded="false" />
-            <element signature="e#2196#2386#0" expanded="false" />
-            <element signature="e#2417#2602#0" expanded="false" />
-            <element signature="e#2627#2772#0" expanded="false" />
-            <element signature="e#2800#3209#0" expanded="false" />
+            <element signature="e#163#178#0" expanded="true" />
+            <element signature="e#663#866#0" expanded="false" />
+            <element signature="e#889#1139#0" expanded="false" />
+            <element signature="e#1171#1507#0" expanded="false" />
+            <element signature="e#1550#1676#0" expanded="false" />
+            <element signature="e#2400#2785#0" expanded="false" />
           </folding>
         </state>
       </provider>

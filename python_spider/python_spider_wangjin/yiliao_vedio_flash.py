@@ -59,13 +59,17 @@ def getHTMLInfo(url):
                 print(vedio_resourse)
                 print(vedio_title)
                 PATH = 'D:/Python_Download/' + vedio_title + '.flv'
-                download.do_load_media(url=vedio_resourse,path=PATH)
+                print(vedio_resourse)
+                with open('downVedio.txt','a+',encoding='UTF-8') as f:
+                    f.write(vedio_title + ":\n" + vedio_resourse + "\n")
+                    f.close()
+                # download.do_load_media(url=vedio_resourse,path=PATH)
 
             except:
                 print('视频链接无效')
                 continue
 
-    pass
+
 
 def getVedioURLS(url,maxPage):
     urls = []
@@ -106,7 +110,11 @@ if __name__ == '__main__':
     ### 视频链接已找到 http://apps.xikang.com/u/cms/xikang/vedio1/xktj0003.flv
     urls = getVedioBigURL()
     for url in urls:
-        html = getHTMLInfo(url)
+        try:
+            html = getHTMLInfo(url)
+        except:
+            continue
+
 
     print("视频下载完成！")
 
