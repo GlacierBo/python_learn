@@ -9,6 +9,7 @@ import re
 import requests
 import traceback
 from bs4 import BeautifulSoup
+import pymysql
 
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -48,11 +49,40 @@ def getHTMLInfo(html):
 
         for article in lis:
             art_url = article.find('a')
-            print(art_url['href'])
-            print(art_url['title'])
+            img_url = art_url.find('img').attrs['src']
+            article_url = art_url['href']
+            article_title = art_url['title']
+
             #接下来根据 链接去获取文章内容
             article_content = getArticleContent(art_url['href'])
-            print(article_content)
+
+            # 打开数据库连接
+            db = pymysql.connect(
+                "localhost",
+                "root",
+                "",
+                "python",
+                charset='utf8'
+            )
+            # 使用 cursor() 方法创建一个游标对象 cursor
+            cursor = db.cursor()
+
+            print(img_url,article_url,article_title,article_content)
+            sql = "insert into xikangwang(img_url,article_url,article_title,article_content) value(%s,%s,%s,%s)"
+            try:
+                # 执行SQL语句
+                cursor.execute(sql, (img_url, article_url, article_title,article_content))
+                # 提交到数据库执行
+                db.commit()
+            except:
+                traceback.print_exc()
+                # 发生错误时回滚
+                db.rollback()
+
+            # 关闭数据库连接
+            db.close()
+
+
     pass
 
 def getArticleContent(url):
